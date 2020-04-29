@@ -1,0 +1,202 @@
+@charset "utf-8";
+@media all and (min-width:1900px) {
+    #pc_display {
+        display: block;
+    }
+    #nt_display {
+        display: none;
+    }
+    #mb_display {
+        display: none;
+    }
+    #tab_display {
+        display: none;
+    }
+    /*헤더영역*/
+    #Header {
+        float: left;
+     
+    }
+    #pc_logo {
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    #pc_logo>img {
+        width: 100%;
+    }
+    /*메뉴바영역*/
+    #nav {
+        width: :100%;
+        height: 100%;
+        background-color: #ccc;
+    }
+    #nav>li {
+        text-align: center;
+        position: relative;
+    }
+    #nav a {
+        display: block;
+        font-weight: 600;
+    }
+    /*서브메뉴영역*/
+    .pc_sub_nav {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100px;
+        z-index: 999;
+        background-color: #666;
+    }
+    .pc_sub_nav>li {
+        text-align: center;
+    }
+    .pc_sub_nav a {
+        color: white;
+    }
+    .pc_on {
+        border-bottom: 3px solid #fcc154;
+        box-sizing: border-box;
+        transition-duration: 1s;
+    }
+    /*서브메뉴 hover시 변경*/
+    .sub_on>a {
+        color: #fcc154;
+    }
+    /*pc 네비에서 빈공간 메뉴바 사라지지 않기 하기 위한 공간*/
+    .pc_sub_nav>.blank {
+        background-color: transparent;
+    }
+    /*메뉴바아래의 합격생버튼*/
+  
+    #but_nav a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #but_nav li {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #but_nav img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*footer를 보이게 하는 기타사항영역*/
+    #foot_but {
+        display: block;
+        text-align: center;
+    }
+    #foot_but>a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #foot_mask {
+        position: absolute;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+        display: none;
+        background-color: transparent;
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+    }
+    #foot_sen {
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        color: #eaeaea;
+    }
+    #foot_cal {
+        width: 100%;
+        text-align: center;
+        color: #fcc154;
+        line-height: 20px;
+    }
+    /*페이지 알림*/
+    .sub_pc {
+        font-size: 8px;
+    }
+    /*서브타이틀*/
+    .sub_title_pc {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    /*주된 타이틀*/
+    .title_pc {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    /*현재과목*/
+    .entrace_title_pc {
+        width: 100%;
+        text-align: center;
+        color: #fcc154;
+        font-size: 18px;
+    }
+    /*입시반 차트영역*/
+    #subject_face {
+        height: 100%;
+        overflow: hidden;
+        float: left;
+        
+    }
+    /*차트영역에서 이미지가 아닌 컨트롤하는곳*/
+    #control_chart {
+        width: 100%;
+        height: 196px;
+        float: left;
+        padding: 30px;
+        padding-bottom: 0;
+        box-sizing: border-box;
+    }
+    .controler_title_pc {
+        float: left;
+        margin-top: -40px;
+    }
+    .controler_pc {
+        float: left;
+        height: auto;
+        width: auto;
+        margin-top: -20px;
+    }
+    .controler_pc>li {
+        line-height: 20px;
+    }
+    /*차트글릭시 하이라이트*/
+    .pc_oner>a {
+        color: #fcc154;
+    }
+    /*차트가 보이는 이미지 영역*/
+    #pc_mask {
+        width: 100%;
+        height: 78%;
+        float: left;
+        background-color: darkblue;
+    }
+    #pc_entrane_wrap {
+        width: 500%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    #pc_entrane_wrap>li {
+        width: 20%;
+        height: auto;
+        float: left;
+    }
+    #pc_entrane_wrap>li>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+}

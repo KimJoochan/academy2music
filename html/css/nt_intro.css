@@ -1,0 +1,270 @@
+@charset "utf-8";
+@media all and (max-width:1899px) and (min-width:1221px) {
+    #pc_display {
+        display: none;
+    }
+    #mb_display {
+        display: none;
+    }
+    #tab_display {
+        display: none;
+    }
+    #nt_display {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #nt_min_foot {
+        height: 30px;
+        background-color: rgba(51, 51, 51, 0.7);
+    }
+    #fo_sen {
+        font-size: 10px;
+        line-height: 30px;
+        color: #eaeaea;
+        float: left;
+    }
+    #min_hig {
+        font-size: 16px;
+        color: #fcc154;
+    }
+    .note_wrap {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    /*상단 풋터의 타 페이지 이동*/
+    #sub_pa {
+        width: auto;
+        height: 100%;
+        float: right;
+    }
+    #sub_pa>li {
+        float: left;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    #sub_pa>li:nth-child(1) {
+        width: 65px;
+        height: 30px;
+        background: url(../nt_img/you_lo.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sub_pa>li:nth-child(2) {
+        width: 30px;
+        height: 30px;
+        background: url(../nt_img/n_f_lo.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sub_pa>li:nth-child(3) {
+        width: 30px;
+        height: 30px;
+        background: url(../nt_img/nt_b_lo.png) no-repeat center center;
+        background-size: cover;
+    }
+    #sub_pa>li:nth-child(4) {
+        width: 30px;
+        height: 30px;
+        background: url(../nt_img/face_lo.png) no-repeat center center;
+        background-size: cover;
+        margin-right: 0;
+    }
+    /*노트의 헤더*/
+    #nt_header {
+        height: 80px;
+        background-color: #ffffff;
+        position: fixed;
+        left: 50%;
+        margin-left: -600px;
+        z-index: 99;
+        background-color: transparent;
+    }
+    /*노트의 네비게이션*/
+    #nt_navi {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #nt_logo {
+        width: 160px;
+        height: auto;
+        float: left;
+        cursor: pointer;
+    }
+    #nt_logo>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #nt_nav {
+        width: 1040px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        float: left;
+    }
+    /*네비에 올리면 라인이 생기는것*/
+    .nt_line {
+        width: 50%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        background-color: orange;
+    }
+    #nt_nav>li {
+        width: 148.5px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 15px;
+        float: left;
+        position: relative;
+    }
+    #nt_nav>li>a {
+        color: #eaeaea;
+    }
+    #nt_nav>li.nt_on>a {
+        color: #fcc154;
+    }
+    /*네비에서 띄어쓰기 없는 글짜의 가운데 정렬*/
+    #nt_nav>li.mar_to {
+        line-height: 40px;
+    }
+    #nt_nav a {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    /*서브메뉴*/
+    .nt_sub_nav {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 148.5px;
+        overflow: hidden;
+        background-color: rgba(51, 51, 51, 0.5);
+    }
+    .nt_sub_nav>li {
+        line-height: 30px;
+    }
+    .nt_sub_nav>li>a {
+        color: #eee;
+    }
+    /*하이라이트*/
+    .nt_sub_nav>.nt_on>a {
+        color: #fcc154;
+        transition-duration: 1s;
+    }
+    .nt_on>a {
+        color: #fcc154;
+        transition-duration: 1s;
+    }
+    .nt_wrap {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+   
+    /*ceo의 경력*/
+    #ceo_inro_his {
+        width: 100%;
+        height: 720px;
+        float: left;
+        margin-top: 40px;
+        padding-top: 35px;
+        box-sizing: border-box;
+    }
+    #his_slice{
+        width: 100%;
+        height: 100%;
+    }
+    #his_slice>li{
+        float: left;
+    }
+    #his_slice>li:nth-child(1){
+        width: 50%;
+        height: 655px;
+        overflow: hidden;
+        padding-right: 35px;
+        box-sizing: border-box;
+    }
+    #his_slice>li:nth-child(1)>img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    #his_slice>li:nth-child(2){
+        width: 50%;
+        height: 100%;
+        padding-left: 35px;
+        box-sizing: border-box;
+    }
+    #name_na{
+        width: 100%;
+        font-size: 20px;
+        float: left;
+    }
+    .car_nt{
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    #nt_chart{
+        width: 450px;
+        height: auto;
+        float: left;
+        margin-top: 50px;
+    }
+    #nt_chart>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*footer영역*/
+     #nt_foot {
+        width: 100%;
+        height: 300px;
+        float: left;
+        background-color: #ccc;
+        position: relative;
+    }
+    #nt_foot > .note_wrap {
+        position: absolute;
+        left: 50%;
+        margin-left: -600px;
+    }
+    #footer_nav {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -80px;
+        overflow: hidden;
+        margin-left: -207px;
+    }
+    #footer_nav > li {
+        float: left;
+        margin-right: 10px;
+    }
+    #footer_logo {
+        position: absolute;
+        top: 30px;
+        left: 65px;
+        width: 120px;
+        height: 80px;
+        background: url(../nt_img/nt_logo.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    .foot_adr {
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        margin-left: -300px;
+        text-align: center;
+        font-style: normal;
+    }
+}

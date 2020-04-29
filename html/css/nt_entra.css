@@ -1,0 +1,297 @@
+@media all and (max-width:1899px) and (min-width:1202px) {
+    #pc_display {
+        display: none;
+    }
+    #nt_display {
+        display: block;
+    }
+    #mb_display {
+        display: none;
+    }
+    #tab_display {
+        display: none;
+    }
+    .note_wrap {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    /*노트의 헤더*/
+    #nt_header {
+        height: 80px;
+        background-color: #ffffff;
+        position: fixed;
+        left: 50%;
+        margin-left: -600px;
+        z-index: 99;
+        background-color: transparent;
+    }
+    /*노트의 네비게이션*/
+    #nt_navi {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #nt_logo {
+        width: 160px;
+        height: auto;
+        float: left;
+        cursor: pointer;
+    }
+    #nt_logo>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #nt_nav {
+        width: 1040px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        float: left;
+    }
+    /*네비에 올리면 라인이 생기는것*/
+    .nt_line {
+        width: 50%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        background-color: orange;
+    }
+    #nt_nav>li {
+        width: 148.5px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 15px;
+        float: left;
+        position: relative;
+    }
+    #nt_nav>li>a {
+        color: #eaeaea;
+    }
+    #nt_nav>li.nt_on>a {
+        color: #fcc154;
+    }
+    /*네비에서 띄어쓰기 없는 글짜의 가운데 정렬*/
+    #nt_nav>li.mar_to {
+        line-height: 40px;
+    }
+    #nt_nav a {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    /*서브메뉴*/
+    .nt_sub_nav {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        z-index: 999;
+        width: 148.5px;
+        height: auto;
+        background-color: rgba(51, 51, 51, 0.5);
+    }
+    .nt_sub_nav>li {
+        line-height: 30px;
+    }
+    .nt_sub_nav>li>a {
+        color: #eee;
+    }
+    /*하이라이트*/
+    .nt_sub_nav>.nt_on>a {
+        color: #fcc154;
+        transition-duration: 1s;
+    }
+    .nt_on>a {
+        color: #fcc154;
+        transition-duration: 1s;
+    }
+    /*노트 차트보여주는 영역*/
+    #controler_nt_face {
+        width: 100%;
+        overflow: hidden;
+        float: left;
+        margin-top: 80px;
+    }
+    /*노트 차트이미지가 아닌 컨트롤러*/
+    #controler_nt_face {
+        width: 100%;
+        height: 190px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    /*영역알려주는글*/
+    #note_place {
+        font-size: 8px;
+        float: left;
+    }
+    /*과목선택버튼*/
+    #nt_select_subject {
+        width: 600px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    #nt_select_subject>li {
+        width: 80px;
+        height: 80px;
+        background-color: wheat;
+        float: left;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    #nt_select_subject>li:last-child {
+        margin: 0;
+    }
+    #nt_select_subject>li>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #nt_mask{
+        width: 1200px;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    /*과목이 보여야하는 영역5등분*/
+    #enra_nt_wrap {
+        width: 500%;
+        overflow: hidden;
+        float: left;
+        position: relative;
+    }
+    #enra_nt_wrap>li {
+        width: 20%;
+        overflow: hidden;
+        float: left;
+        
+        box-sizing: border-box;
+    }
+    /*5등분영역에서 보여주는 2등분*/
+    .sub_wrap_nt {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .sub_wrap_nt>li {
+        width: 50%;
+        height: auto;
+        float: left;
+       
+        box-sizing: border-box;
+    }
+    .sub_wrap_nt>li:nth-child(1) {
+        padding-right: 40px;
+    }
+    .sub_wrap_nt>li:nth-child(2) {
+        padding-left: 40px;
+    }
+    /*2등분안에 속 내용(왼쪽)*/
+    .nt_left_line {
+        width: 100%;
+        height: auto;
+    }
+    .nt_left_line>li {
+        width: 100%;
+        height: 260px;
+        float: left;
+        margin-bottom: 455px;
+    }
+    .nt_left_line>li>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .nt_right_line {
+        width: 100%;
+        height: auto;
+    }
+    .nt_right_line>li {
+        width: 100%;
+        height: 260px;
+        float: left;
+        margin-top: 455px;
+    }
+    .nt_right_line>li>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .nt_right_line>li:first-child {
+        margin-top: 360px;
+    }
+    /*사진 hover하면 나오는 글*/
+    .nt_left_line .pic_sent_pc {
+        width: 100%;
+        height: 260px;
+       
+        box-sizing: border-box;
+        position: relative;
+        left: 110%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .sent_nt{width: 100%;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 130px;}
+    .sent_nt>li{
+        font-size: 20px;
+        
+        text-align:left;
+    }
+    .nt_right_line .pic_sent_pc {
+        width: 100%;
+        height: 260px;
+        box-sizing: border-box;
+        position: relative;
+        right: 120%;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+     #nt_foot {
+        width: 100%;
+        height: 300px;
+        float: left;
+        background-color: #ccc;
+        position: relative;
+    }
+    #nt_foot > .note_wrap {
+        position: absolute;
+        left: 50%;
+        margin-left: -600px;
+    }
+    #footer_nav {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -80px;
+        overflow: hidden;
+        margin-left: -207px;
+    }
+    #footer_nav > li {
+        float: left;
+        margin-right: 10px;
+    }
+    #footer_logo {
+        position: absolute;
+        top: 30px;
+        left: 65px;
+        width: 120px;
+        height: 80px;
+        background: url(../nt_img/nt_logo.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    .foot_adr {
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        text-align: center;
+        font-style: normal;
+        margin-left: -300px;
+    }
+}

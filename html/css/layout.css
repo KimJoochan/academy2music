@@ -1,0 +1,549 @@
+@charset "utf-8";
+@media all and (min-width:1900px) {
+    html {
+        overflow: hidden;
+    }
+    #pc_display {
+        display: block;
+    }
+    #nt_display {
+        display: none;
+    }
+    #mobile_display {
+        display: none;
+    }
+    #tab_display {
+        display: none;
+    }
+    /*헤더영역*/
+    #pc_display {
+        overflow: hidden;
+    }
+    #Header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 999;
+    }
+    #pc_logo {
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    #pc_logo>img {
+        width: 100%;
+    }
+    /*메뉴바영역*/
+    #nav {
+        width: :100%;
+        height: 100%;
+        background-color: #ccc;
+    }
+    #nav>li {
+        text-align: center;
+        position: relative;
+    }
+    #nav a {
+        display: block;
+        font-weight: 600;
+    }
+    /*서브메뉴영역*/
+    .pc_sub_nav {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100px;
+        z-index: 999;
+        background-color: #666;
+    }
+    .pc_sub_nav>li {
+        text-align: center;
+    }
+    .pc_sub_nav a {
+        color: white;
+    }
+    .pc_on {
+        border-bottom: 3px solid #fcc154;
+        box-sizing: border-box;
+        transition-duration: 1s;
+    }
+    /*서브메뉴 hover시 변경*/
+    .sub_on>a {
+        color: #fcc154;
+    }
+    /*pc 네비에서 빈공간 메뉴바 사라지지 않기 하기 위한 공간*/
+    .pc_sub_nav>.blank {
+        background-color: transparent;
+    }
+    /*메뉴바아래의 합격생버튼*/
+    #but_nav {
+        display: none;
+    }
+    #but_nav li {
+        width: 100%;
+        height: auto;
+        float: left;
+        cursor: pointer;
+    }
+    #but_nav img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*footer를 보이게 하는 기타사항영역*/
+    #foot_but {
+        display: block;
+        text-align: center;
+    }
+    #foot_but>a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #foot_mask {
+        position: absolute;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+    }
+    #foot_sen {
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        color: #eaeaea;
+    }
+    #foot_cal {
+        width: 100%;
+        text-align: center;
+        color: #fcc154;
+        line-height: 20px;
+    }
+    /*전체 레이아웃을 감싸는 영역*/
+    #pc_section {
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+    }
+    #pc_section>li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+    }
+    /*배너영역*/
+    #banner {
+        position: relative;
+    }
+    #ban_but {
+        width: 80px;
+        height: 40px;
+        border-radius: 30px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -15px;
+        background-color: transparent;
+        border: 0px;
+        cursor: pointer;
+    }
+    .ban_b_r {
+        width: 80px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        border: 1px solid #dfdfdf;
+        border-radius: 30px;
+        margin-top: -7.5px;
+        text-align: center;
+        cursor: pointer;
+        background-color: rgba(204,204,204,0.5);
+    }
+    .but_r {
+        font-size: 16px;
+        color: #fff;
+    }
+    .ban_b_r.rig>.but_r {
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .ban_b_r.lefter>.but_r {
+        float: left;
+        margin-left: 10px;
+    }
+    .but_r:nth-child(1) {
+        animation: mv;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+    }
+    .but_r:nth-child(2) {
+        animation: mv_1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+    }
+    @keyframes mv {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes mv_1 {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0
+        }
+    }
+    /*배너영역*/
+    #pc_ban_mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #pc_ban {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #pc_ban>li {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #pc_ban>li>img {
+        width: 100%;
+    }
+    /*배너의 점갤러리*/
+    #pc_bot_but {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 9;
+        background: url(../pc_img/ban_dot_line.png) no-repeat center center;
+        background-size: contain;
+    }
+    #pc_bot_but>li {
+        float: left;
+        cursor: pointer;
+    }
+    #pc_bot_but>li>img {
+        width: 75%;
+    }
+    #pc_bot_but>li:nth-child(2n) {
+        margin-top: 20px;
+    }
+    #ban_act {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 9;
+        display: none;
+    }
+    .ban_st {
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin-top: 10px;
+    }
+    /*두번재 페이지영역*/
+    .but {
+        width: 60px;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+    }
+    .left {
+        left: 0;
+    }
+    .right {
+        right: 15px;
+    }
+    #sec_ful {
+        margin: 0 auto;
+        background-color: white;
+    }
+    #sec_wrap {
+        position: absolute;
+        top: 60px;
+        bottom: 60px;
+    }
+    #sec_wrap>li {
+        float: left;
+        position: relative;
+        border: 1px solid #dbdbdb;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    /*각 섹션의 속의 영역들의 색상*/
+    #about_wrap {
+        position: relative;
+    }
+    /*about_wrap의 '약속합니다.'*/
+    .promise {
+        position: absolute;
+        top: 50%;
+        margin-top: 70px;
+        left: 0;
+        font-size: 16px;
+        font-style: italic;
+        color: #fcc154;
+    }
+    #more {
+        position: absolute;
+        top: 50px;
+        background-color: transparent;
+        border-radius: 20px;
+        border: 1px solid black;
+        width: 75px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    /*about_wrap의 이미지*/
+    #pc_team_pic {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: chocolate;
+        overflow: hidden;
+    }
+    #pc_team_pic>img {
+        width: 100%;
+    }
+    #ab_sen {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: auto;
+    }
+    #ab_sen>li {
+        line-height: 24px;
+        color: #555;
+        font-size: 16px;
+    }
+    .sub_title {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        color: #333;
+    }
+    #new_wrap {
+        position: relative;
+    }
+    #pc_new_pic {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    #pc_new_pic>li {
+        width: 100%;
+        height: auto;
+        float: left;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    #pc_new_pic>li>img {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .new_sub_sen {
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    /*뉴스의 작은뉴스들*/
+    #pc_new_sub {
+        width: 100%;
+        height: 100%;
+    }
+    #pc_new_sub>li {
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+    #pc_new_sub>li>img {
+        width: 100%;
+        height: 100%;
+    }
+    #subject_wrap {
+        position: relative;
+    }
+    #pc_subject_pic {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    #pc_subject_pic>li {
+        float: left;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+    #pc_subject_pic>li:nth-child(1) {
+        background: url(../pc_img/voca.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(2) {
+        background: url(../pc_img/pianoc.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(3) {
+        background: url(../pc_img/voilonc.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(4) {
+        background: url(../pc_img/dancec.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(5) {
+        background: url(../pc_img/hiphop.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(6) {
+        background: url(../pc_img/composc.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(7) {
+        background: url(../pc_img/midic.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li:nth-child(8) {
+        background: url(../pc_img/guitarc.png) no-repeat center center;
+        background-size: cover;
+    }
+    #pc_subject_pic>li>img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #consult_wrap {
+        position: relative;
+    }
+    #pc_con_pic {
+        position: absolute;
+        background: url(../pc_img/concult.jpg) no-repeat center center;
+        background-size: cover;
+        left: 50%;
+    }
+    #con_but {
+        position: absolute;
+        bottom: 7px;
+        left: 50%;
+        z-index: 99;
+    }
+    #con_but>li {
+        float: left;
+        background-color: #fff;
+    }
+    #con_but a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2px;
+    }
+    #con_but>li:nth-child(2) {
+        margin: 0px 10px;
+    }
+    /*세번째 페이지영역*/
+    #thr_half>li {
+        float: left;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    .col {
+        float: left;
+    }
+    #pas_rev {
+        padding: 30px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    #rev_sent {
+        width: 50%;
+        height: 70%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    #rev_sent>li {
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    #rev_sent>li:hover {
+        text-decoration: underline;
+    }
+    #rev_more {
+        width: 60px;
+        height: 30px;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        margin-left: -30px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    #revideo_more {
+        width: 60px;
+        height: 30px;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        z-index: 999;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    #pas_video {
+        width: 100%;
+        height: 70%;
+        margin-top: 30px;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    #pas_wrap {
+        position: relative;
+    }
+    /*세번째 페이지의 광고영역*/
+    .adv {
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    #hobby {
+        background: url(../pc_img/adv_1.jpg) no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #enterance {
+        background: url(../pc_img/adv_2.jpg) no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    #audition {
+        background: url(../pc_img/adv_3.jpg) no-repeat center center;
+        background-size: cover;
+        cursor: pointer;
+    }
+}

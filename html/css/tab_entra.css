@@ -1,0 +1,194 @@
+@media all and (max-width:1200px) and (min-width:760px) {
+    #pc_display {
+        display: none;
+    }
+    #nt_display {
+        display: none;
+    }
+    #tab_display {
+        display: block;
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    #mb_display {
+        display: none;
+    }
+    /*테블릿 헤드*/
+    #tab_header {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        z-index: 999;
+    }
+    #tab_logo {
+        float: left;
+        width: 13.3%;
+        height: auto;
+        margin-left: 5.8%;
+        cursor: pointer;
+    }
+    #tab_logo>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #tab_menu_hid {
+        float: right;
+        width: 5.8%;
+        height: auto;
+        margin-top: 2.5%;
+        margin-right: 5.8%;
+        display: block;
+        cursor: pointer;
+    }
+    #tab_menu_hid>img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*테블릿 메뉴*/
+    #tab_menu {
+        width: 15vw;
+        height: 210px;
+        position: fixed;
+        right: 1%;
+        background-color: #ccc;
+        display: none;
+        top: 50px;
+    }
+    #tab_nav {
+        width: 100%;
+        height: 210px;
+    }
+    #tab_nav>li {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    #tab_nav>li>a {
+        display: block;
+    }
+    #tab_padd{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        padding-bottom: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    /*텝에서 선택할수 있는 영역*/
+    #tab_control {
+        width: 100%;
+        height: 220px;
+        padding-bottom: :0;
+        box-sizing: border-box;
+    }
+    /*탭에서 선택버튼*/
+    #tab_select_ent {
+        width: 50%;
+        height: 60px;
+        float: left;
+        margin-left: 25%;
+    }
+    #tab_select_ent>li{
+        width: 16%;
+        height: auto;
+        float: left;
+        margin-right: 5%;
+        cursor: pointer;
+    }
+    #tab_select_ent>li>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #tab_select_ent>li:last-child{
+        margin: 0;
+    }
+    /*탭에서 과목을 나타내기*/
+    #tab_title{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        float: left;
+        font-size: 30px;
+    }
+    /*탭영역에서 이미지영역,사진으로 다채우고 끝*/
+    #tab_mask{
+        width: 91.6%;
+        height: auto;
+        overflow: hidden;
+        float: left;
+        margin-left: 4.7%;
+    }
+    #tab_img_wrap{
+         width: 500%;
+        height: auto;
+        float: left;
+        margin-top: 30px;
+        position: relative;
+    }
+    #tab_img_wrap>li{
+        width: 20%;
+        height: auto;
+        float: left
+    }
+    #tab_img_wrap>li>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #tab_footer {
+        width: 100%;
+        height: 200px;
+        float: left;
+        background-color: #eaeaea;
+        position: relative;
+          padding-top: 30px;
+        box-sizing: border-box;
+    }
+    #tab_ico_but{
+        width: 16.6%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #tab_ico_but>li{
+        float: left;
+        width: 28%;
+        height: auto;
+        margin-right: 8%;
+        cursor: pointer;
+    }
+    #tab_ico_but>li:last-child{
+        float: right;
+    }
+    #tab_ico_but>li>img{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #tab_foot_logo {
+        width: 9.3%;
+        height: 51%;
+        position: absolute;
+        left: 7.8%;
+        top: 18%;
+        background: url(../tab_img/tab_logo.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    #tab_fot_sen {
+        font-style: normal;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+

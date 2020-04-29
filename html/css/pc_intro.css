@@ -1,0 +1,225 @@
+@charset "utf-8";
+@media all and (min-width:1900px) {
+    #pc_display {
+        display: block;
+    }
+    #nt_display {
+        display: none;
+    }
+    #mb_display {
+        display: none;
+    }
+    #tab_display {
+        display: none;
+    }
+    /*헤더영역*/
+    #Header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    #pc_logo {
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    #pc_logo > img {
+        width: 100%;
+    }
+    /*메뉴바영역*/
+    #nav {
+        width: :100%;
+        height: 100%;
+        background-color: #ccc;
+    }
+    #nav > li {
+        text-align: center;
+        position: relative;
+    }
+    #nav a {
+        display: block;
+        font-weight: 600;
+    }
+    /*서브메뉴영역*/
+    .pc_sub_nav {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100px;
+        z-index: 999;
+        background-color: #666;
+    }
+    .pc_sub_nav > li {
+        text-align: center;
+    }
+    .pc_sub_nav a {
+        color: white;
+    }
+    .pc_on {
+        border-bottom: 3px solid #fcc154;
+        box-sizing: border-box;
+        transition-duration: 1s;
+    }
+    /*서브메뉴 hover시 변경*/
+    .sub_on > a {
+        color: #fcc154;
+    }
+    /*pc 네비에서 빈공간 메뉴바 사라지지 않기 하기 위한 공간*/
+    .pc_sub_nav > .blank {
+        background-color: transparent;
+    }
+    /*메뉴바아래의 합격생버튼*/
+   
+    #but_nav a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #but_nav li {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #but_nav img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*footer를 보이게 하는 기타사항영역*/
+    #foot_but {
+        display: block;
+        text-align: center;
+    }
+    #foot_but > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #foot_mask {
+        position: absolute;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+        background-color: transparent;
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+    }
+    #foot_sen {
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        color: #eaeaea;
+    }
+    #foot_cal {
+        width: 100%;
+        text-align: center;
+        color: #fcc154;
+        line-height: 20px;
+    }
+    /*전체 레이아웃을 감싸는 영역*/
+    #pc_section {
+        float: left;
+        margin-left: 200px;
+    }
+    #pc_section > li {
+        float: left;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    /*인산말 타이틀*/
+    .pc_title {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    /*학원장의 사진*/
+    .intro_pic {
+        width: 48%;
+        height: 45%;
+        margin: 0 auto;
+        margin-top: 2.5%;
+    }
+    .intro_pic > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    /*학원장의 다짐*/
+    #top_sen {
+        width: 100%;
+        height: auto;
+        margin-top: 2.5%;
+    }
+    #top_sen > li {
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    /*학원장의 역사*/
+    #bottom_sen {
+        width: 100%;
+        height: 100%;
+        margin-top: 2.5%;
+    }
+    #bottom_sen > li {
+        text-align: center;
+        line-height: 20px;
+        font-size: 14px;
+        color: #777;
+    }
+    /*학원자의 프로필용 사진*/
+    .intro_pro {
+        width: 27%;
+        height: 68%;
+        float: left;
+        margin-left: 14%;
+        margin-top: 7.3%;
+        overflow: hidden;
+    }
+    .intro_pro > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    #pro_sent {
+        width: 27%;
+        height: 68%;
+        float: left;
+        margin-left: 14%;
+        margin-top: 7.3%;
+    }
+    #pro_name {
+        float: left;
+        font-size: 16px;
+    }
+    .pro_sen {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 7.5%;
+    }
+    .pro_sen > li {
+        line-height: 24px;
+    }
+    /*원장의 합격자 보유숫자*/
+    #pc_char {
+        width: 100%;
+        height: auto;
+        margin-top: 8.5%;
+        float: left;
+    }
+    #pc_char > img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+
+
+}
