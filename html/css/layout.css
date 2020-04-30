@@ -179,6 +179,7 @@
     .ban_b_r.lefter>.but_r {
         float: left;
         margin-left: 10px;
+        margin-top: 10px;
     }
     .but_r:nth-child(1) {
         animation: mv;
@@ -235,7 +236,7 @@
         top: 10px;
         left: 10px;
         z-index: 9;
-        background: url(../pc_img/ban_dot_line.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/ban_dot_line.png) no-repeat center center;
         background-size: contain;
     }
     #pc_bot_but>li {
@@ -400,35 +401,35 @@
         position: relative;
     }
     #pc_subject_pic>li:nth-child(1) {
-        background: url(../pc_img/voca.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/voca.jpg) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(2) {
-        background: url(../pc_img/pianoc.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/pianoc.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(3) {
-        background: url(../pc_img/voilonc.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/voilonc.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(4) {
-        background: url(../pc_img/dancec.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/dancec.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(5) {
-        background: url(../pc_img/hiphop.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/hiphop.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(6) {
-        background: url(../pc_img/composc.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/composc.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(7) {
-        background: url(../pc_img/midic.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/midic.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li:nth-child(8) {
-        background: url(../pc_img/guitarc.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/guitarc.png) no-repeat center center;
         background-size: cover;
     }
     #pc_subject_pic>li>img {
@@ -443,7 +444,7 @@
     }
     #pc_con_pic {
         position: absolute;
-        background: url(../pc_img/concult.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/concult.jpg) no-repeat center center;
         background-size: cover;
         left: 50%;
     }
@@ -532,17 +533,17 @@
         box-sizing: border-box;
     }
     #hobby {
-        background: url(../pc_img/adv_1.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/adv_1.jpg) no-repeat center center;
         background-size: cover;
         cursor: pointer;
     }
     #enterance {
-        background: url(../pc_img/adv_2.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/adv_2.jpg) no-repeat center center;
         background-size: cover;
         cursor: pointer;
     }
     #audition {
-        background: url(../pc_img/adv_3.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/adv_3.jpg) no-repeat center center;
         background-size: cover;
         cursor: pointer;
     }

@@ -79,7 +79,7 @@
         width: 100%;
         height: auto;
         float: left;
-        margin-top: 6%;
+        margin-top: 56px;
         background-color: aqua;
     }
     #tab_ban_wrap {
@@ -267,7 +267,7 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        background: url(../tab_img/map.jpg) no-repeat center center;
+        background: url(http://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_img/map.jpg) no-repeat center center;
         background-size: cover;
     }
     /*테블릿 풋터*/
@@ -306,7 +306,7 @@
         position: absolute;
         left: 7.8%;
         top: 18%;
-        background: url(../tab_img/tab_logo.jpg) no-repeat center center;
+        background: url(http://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_img/tab_logo.jpg) no-repeat center center;
         background-size: contain;
     }
     #tab_fot_sen {

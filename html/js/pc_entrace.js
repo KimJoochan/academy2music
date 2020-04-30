@@ -171,39 +171,39 @@ $(document).ready(function () {
         $('#nt_select_subject>li').click(function () {
             var nsid = $(this).index();
             if(nsid==0){
- $(this).find('img').attr('src','nt_intro_img/vocalafter.png');
- $('#nt_select_subject>li').eq(1).find('img').attr('src','nt_intro_img/compobefore.png');
- $('#nt_select_subject>li').eq(2).find('img').attr('src','nt_intro_img/songbefore.png');
- $('#nt_select_subject>li').eq(3).find('img').attr('src','nt_intro_img/singbefore.png');
- $('#nt_select_subject>li').eq(4).find('img').attr('src','nt_intro_img/midibefore.png');
+ $(this).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/vocalafter.png');
+ $('#nt_select_subject>li').eq(1).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/compobefore.png');
+ $('#nt_select_subject>li').eq(2).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/songbefore.png');
+ $('#nt_select_subject>li').eq(3).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/singbefore.png');
+ $('#nt_select_subject>li').eq(4).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/midibefore.png');
             }
             else if(nsid==1){
- $('#nt_select_subject>li').eq(0).find('img').attr('src','nt_intro_img/vocalbefore.png');
- $(this).find('img').attr('src','nt_intro_img/compoafter.png');
- $('#nt_select_subject>li').eq(2).find('img').attr('src','nt_intro_img/songbefore.png');
- $('#nt_select_subject>li').eq(3).find('img').attr('src','nt_intro_img/singbefore.png');
- $('#nt_select_subject>li').eq(4).find('img').attr('src','nt_intro_img/midibefore.png');
+ $('#nt_select_subject>li').eq(0).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/vocalbefore.png');
+ $(this).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/compoafter.png');
+ $('#nt_select_subject>li').eq(2).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/songbefore.png');
+ $('#nt_select_subject>li').eq(3).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/singbefore.png');
+ $('#nt_select_subject>li').eq(4).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/midibefore.png');
             }
             else if(nsid==2){
- $('#nt_select_subject>li').eq(0).find('img').attr('src','nt_intro_img/vocalbefore.png');
- $('#nt_select_subject>li').eq(1).find('img').attr('src','nt_intro_img/compobefore.png');
- $(this).find('img').attr('src','nt_intro_img/songafter.png');
- $('#nt_select_subject>li').eq(3).find('img').attr('src','nt_intro_img/singbefore.png');
- $('#nt_select_subject>li').eq(4).find('img').attr('src','nt_intro_img/midibefore.png');
+ $('#nt_select_subject>li').eq(0).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/vocalbefore.png');
+ $('#nt_select_subject>li').eq(1).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/compobefore.png');
+ $(this).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/songafter.png');
+ $('#nt_select_subject>li').eq(3).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/singbefore.png');
+ $('#nt_select_subject>li').eq(4).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/midibefore.png');
             }
             else if(nsid==3){
- $('#nt_select_subject>li').eq(0).find('img').attr('src','nt_intro_img/vocalbefore.png');
- $('#nt_select_subject>li').eq(1).find('img').attr('src','nt_intro_img/compobefore.png');
- $('#nt_select_subject>li').eq(2).find('img').attr('src','nt_intro_img/songbefore.png');
- $(this).find('img').attr('src','nt_intro_img/singafter.png');
- $('#nt_select_subject>li').eq(4).find('img').attr('src','nt_intro_img/midibefore.png');
+ $('#nt_select_subject>li').eq(0).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/vocalbefore.png');
+ $('#nt_select_subject>li').eq(1).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/compobefore.png');
+ $('#nt_select_subject>li').eq(2).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/songbefore.png');
+ $(this).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/singafter.png');
+ $('#nt_select_subject>li').eq(4).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/midibefore.png');
             }
             else if(nsid==4){
- $('#nt_select_subject>li').eq(0).find('img').attr('src','nt_intro_img/vocalbefore.png');
- $('#nt_select_subject>li').eq(1).find('img').attr('src','nt_intro_img/compobefore.png');
- $('#nt_select_subject>li').eq(2).find('img').attr('src','nt_intro_img/songbefore.png');
- $('#nt_select_subject>li').eq(3).find('img').attr('src','nt_intro_img/singbefore.png');
- $(this).find('img').attr('src','nt_intro_img/midiafter.png');
+ $('#nt_select_subject>li').eq(0).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/vocalbefore.png');
+ $('#nt_select_subject>li').eq(1).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/compobefore.png');
+ $('#nt_select_subject>li').eq(2).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/songbefore.png');
+ $('#nt_select_subject>li').eq(3).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/singbefore.png');
+ $(this).find('img').attr('src','https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_intro_img/midiafter.png');
             }
             $('#enra_nt_wrap').animate({
                 left: $('#enra_nt_wrap>li').width() * nsid * '-1'
@@ -229,39 +229,39 @@ $(document).ready(function () {
         $('#tab_select_ent>li').click(function () {
             var tse = $(this).index();
             if (tse == 0) {
-                $(this).find('img').attr('src', 'tab_intro_img/vocalafter.png');
-                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'tab_intro_img/singbefore.png')
-                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'tab_intro_img/compobefore.png')
-                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'tab_intro_img/songbefore.png')
-                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'tab_intro_img/midibefore.png');
+                $(this).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/vocalafter.png');
+                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/singbefore.png')
+                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/compobefore.png')
+                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/songbefore.png')
+                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/midibefore.png');
                 $('#tab_title').html('보컬');
             } else if (tse == 1) {
-                $(this).find('img').attr('src', 'tab_intro_img/singafter.png');
-                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'tab_intro_img/vocalbefore.png')
-                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'tab_intro_img/compobefore.png')
-                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'tab_intro_img/songbefore.png')
-                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'tab_intro_img/midibefore.png')
+                $(this).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/singafter.png');
+                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/vocalbefore.png')
+                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/compobefore.png')
+                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/songbefore.png')
+                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/midibefore.png')
                 $('#tab_title').html('연주');
             } else if (tse == 2) {
-                $(this).find('img').attr('src', 'tab_intro_img/compoafter.png');
-                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'tab_intro_img/vocalbefore.png')
-                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'tab_intro_img/singbefore.png')
-                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'tab_intro_img/songbefore.png')
-                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'tab_intro_img/midibefore.png');
+                $(this).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/compoafter.png');
+                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/vocalbefore.png')
+                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/singbefore.png')
+                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/songbefore.png')
+                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/midibefore.png');
                 $('#tab_title').html('작곡');
             } else if (tse == 3) {
-                $(this).find('img').attr('src', 'tab_intro_img/songafter.png');
-                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'tab_intro_img/vocalbefore.png')
-                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'tab_intro_img/singbefore.png')
-                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'tab_intro_img/compobefore.png')
-                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'tab_intro_img/midibefore.png')
+                $(this).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/songafter.png');
+                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/vocalbefore.png')
+                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/singbefore.png')
+                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/compobefore.png')
+                $('#tab_select_ent>li').eq(4).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/midibefore.png')
                 $('#tab_title').html('싱어송라이팅');
             } else if (tse == 4) {
-                $(this).find('img').attr('src', 'tab_intro_img/midiafter.png');
-                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'tab_intro_img/vocalbefore.png')
-                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'tab_intro_img/singbefore.png')
-                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'tab_intro_img/compobefore.png')
-                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'tab_intro_img/songbefore.png')
+                $(this).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/midiafter.png');
+                $('#tab_select_ent>li').eq(0).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/vocalbefore.png')
+                $('#tab_select_ent>li').eq(1).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/singbefore.png')
+                $('#tab_select_ent>li').eq(2).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/compobefore.png')
+                $('#tab_select_ent>li').eq(3).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicMbImg/mobieImg/tab_intro_img/songbefore.png')
                 $('#tab_title').html('미디');
             }
             $('#tab_img_wrap').animate({
@@ -343,9 +343,6 @@ $(document).ready(function () {
              $('#tab_menu').slideToggle();
          })
      }
-    $('#mb_mask').css({
-        height:$('#img_wrap_mb').find('li').height()
-    })
      tab_ac();
     mb_act();
 })

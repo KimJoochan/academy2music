@@ -48,25 +48,25 @@
     #sub_pa>li:nth-child(1) {
         width: 65px;
         height: 30px;
-        background: url(../nt_img/you_lo.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_img/you_lo.png) no-repeat center center;
         background-size: cover;
     }
     #sub_pa>li:nth-child(2) {
         width: 30px;
         height: 30px;
-        background: url(../nt_img/n_f_lo.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_img/n_f_lo.png) no-repeat center center;
         background-size: cover;
     }
     #sub_pa>li:nth-child(3) {
         width: 30px;
         height: 30px;
-        background: url(../nt_img/nt_b_lo.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_img/nt_b_lo.png) no-repeat center center;
         background-size: cover;
     }
     #sub_pa>li:nth-child(4) {
         width: 30px;
         height: 30px;
-        background: url(../nt_img/face_lo.png) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_img/face_lo.png) no-repeat center center;
         background-size: cover;
         margin-right: 0;
     }
@@ -256,7 +256,7 @@
         left: 65px;
         width: 120px;
         height: 80px;
-        background: url(../nt_img/nt_logo.jpg) no-repeat center center;
+        background: url(https://kimjoochan.github.io/academy2musicNtImg/notebookImg/nt_img/nt_logo.jpg) no-repeat center center;
         background-size: contain;
     }
     .foot_adr {

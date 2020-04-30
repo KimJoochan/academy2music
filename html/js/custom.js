@@ -346,7 +346,7 @@ $(document).ready(function () {
         })
         //배너 점갤러리
         var current = 0;
-        $('#pc_bot_but>li').eq(0).find('img').attr('src', 'pc_img/ban_dot_a.png');
+        $('#pc_bot_but>li').eq(0).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/ban_dot_a.png');
         $('#pc_bot_but>li').click(function () {
             var nu = $(this).index();
             if (nu == current) {
@@ -362,8 +362,8 @@ $(document).ready(function () {
             }).animate({
                 left: 0
             }, 500);
-            $('#pc_bot_but>li').find('img').attr('src', 'pc_img/ban_dot.png');
-            $('#pc_bot_but>li').eq(nu).find('img').attr('src', 'pc_img/ban_dot_a.png');
+            $('#pc_bot_but>li').find('img').attr('src', 'https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/ban_dot.png');
+            $('#pc_bot_but>li').eq(nu).find('img').attr('src', 'https://kimjoochan.github.io/academy2musicPcImg/pcImg/pc_img/ban_dot_a.png');
             current = nu;
 
         });
@@ -696,6 +696,6 @@ $(document).ready(function () {
         location.href='entra.html'
     });
     $('#mb_satis>h3').css({
-        lineHeight:$('#mb_satis').height()+px
+        lineHeight:$('#mb_satis').height()+'px'
     })
 });
